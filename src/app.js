@@ -9,7 +9,7 @@ app.use(express.json());
 let storedHashedPassword;
 let storedEncryptedMemberId;
 
-const secretKey = crypto.randomBytes(32); // In production, use a secure, persistent key
+const secretKey = crypto.randomBytes(32); // In production change this to be more secure.
 
 app.post("/register", async (req, res) => {
   const { password, memberId } = req.body;
