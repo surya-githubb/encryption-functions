@@ -23,7 +23,7 @@ app.post("/register", async (req, res) => {
 
   res.json({
     message: "Password and memberId stored securely!",
-    hashed: storedHashedPassword,
+    hashedPassword: storedHashedPassword,
     encryptedMemberId: storedEncryptedMemberId,
   });
 });
