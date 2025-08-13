@@ -20,9 +20,9 @@ function decryptData(encryptedData, secretKey) {
 }
 
 // crypto.randomBytes(32);
-secretKey = 'b489bef6477f82e9166f74f79a1f86cd1808c80057f3ee4ad39f158b5728ec39'
+// secretKey = 'b489bef6477f82e9166f74f79a1f86cd1808c80057f3ee4ad39f158b5728ec39'
 // console.log(encryptData('password', secretKey))
-console.log(decryptData('db44bff322087d75c1f49da678a426af', secretKey))
+// console.log(decryptData('db44bff322087d75c1f49da678a426af', secretKey))
 
 
 
